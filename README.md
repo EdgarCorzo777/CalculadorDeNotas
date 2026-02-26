@@ -19,7 +19,7 @@ Este es un script básico escrito en **Python** que solicita al usuario tres cal
 
 ## 💻 Instalación y Uso
 
-1. **Clonar el repositorio** (o crear un archivo llamado `main.py`):
+1. **Clonar el repositorio**
    ```bash
-   git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
+   git clone [https://github.com/EdgarCorzo777/CalculadorDeNotas.git]
 
