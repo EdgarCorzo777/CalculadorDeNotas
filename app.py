@@ -1,7 +1,13 @@
-nota1 = float(input("Ingresa tu primera nota: "))
-nota2 = float(input("Ingresa tu segunda nota: "))
-nota3 = float(input("Ingresa tu tercera nota: "))
+try:
+    cntNotas = int(input("Ingrese la cantidad de notas que va digitar: "))
+    sumNota = 0
 
-promedio = (nota1+nota2+nota3)/3
+    for i in range(1, cntNotas+1):
+        nota = float(input("Ingrese su nota: "))
+        sumNota += nota
+        promedio = sumNota/i
+    
+    print(f"El promedio de su nota es: {promedio:.2f} ")
 
-print(f"El promedio de tus notas es {promedio}")
+except ValueError:
+    print("Error: Solo se permite ingresar valores numericos.")
